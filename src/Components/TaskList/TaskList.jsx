@@ -16,7 +16,7 @@ export function TaskList() {
 
     function addTask(task) {
         const newTasks = tasks.slice();
-        if (newTasks.find((item) => item === task)) {
+        if (!task.name || newTasks.find((item) => item.name === task.name)) {
             return false;
         }
         newTasks.push(task);
