@@ -7,10 +7,14 @@ import './TaskList.scss';
 
 export function TaskList() {
     const [tasks, setTasks] = useState([]);
+    const [completedCounter, setCompletedCounter] = useState(0);
 
     function removeTask(task) {
         const newTasks = tasks.slice();
         newTasks.splice(tasks.findIndex((item) => item === task), 1);
+        if (task.isCompleted) {
+            setCompletedCounter(completedCounter - 1);
+        }
         setTasks(newTasks);
     }
 
@@ -23,14 +27,20 @@ export function TaskList() {
         setTasks(newTasks);
     }
 
+    function toggleCompleteTaskState(task) {
+        setCompletedCounter(completedCounter + (task.isCompleted ? -1 : 1));
+        task.isCompleted = !task.isCompleted;
+    }
+
     return <div className="taskList">
-            <TaskInfo tasks={tasks}/>
+            <TaskInfo taskAmount={tasks.length} completedCounter={completedCounter}/>
             <AddTaskBlock addTask={addTask}/>
             {tasks.map((task) => {
                 return <Task
                     remove={() => removeTask(task)}
                     key={task.name}
                     task={task}
+                    toggleCompleteState={() => toggleCompleteTaskState(task)}
                 />;
             })}
         </div>;
