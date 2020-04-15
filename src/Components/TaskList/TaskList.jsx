@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import {TaskInfo} from "./TasksInfo";
-import {AddTaskBlock} from "./AddTaskBlock";
-import {Task} from "./Task";
+import { TaskInfo } from "./TasksInfo";
+import { AddTaskBlock } from "./AddTaskBlock";
+import { Task } from "./Task";
 
 export function TaskList() {
     const [tasks, setTasks] = useState([]);

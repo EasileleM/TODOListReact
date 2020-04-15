@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout } from './Pages/Layout';
+import { Layout } from './Pages/Layout/Layout';
 
 function App() {
   return <Layout />;

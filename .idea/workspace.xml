@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0b65f0b-6198-46e4-bb20-2a062d45ee9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/TaskList/AddTaskBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/TaskList/TasksInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/Layout/Layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TODOList/AddTaskBlock.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TODOList/Task.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TaskList/Task.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TODOList/TaskList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TaskList/TaskList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TODOList/TasksInfo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Layout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TaskList/TaskList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TaskList/TaskList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Layout/Layout.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +35,11 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Easy\WebstormProjects\untitled1\src\Pages\Layout" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -63,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586946510529</updated>
-      <workItem from="1586946512211" duration="2583000" />
+      <workItem from="1586946512211" duration="3076000" />
     </task>
     <servers />
   </component>
@@ -75,5 +77,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586946843560" />
+    <state x="646" y="114" width="627" height="852" key="find.popup" timestamp="1586949379768">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="646" y="114" width="627" height="852" key="find.popup/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1586949379768" />
   </component>
 </project>
