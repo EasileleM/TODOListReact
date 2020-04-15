@@ -3,6 +3,8 @@ import { TaskInfo } from "./TasksInfo";
 import { AddTaskBlock } from "./AddTaskBlock";
 import { Task } from "./Task";
 
+import './TaskList.scss';
+
 export function TaskList() {
     const [tasks, setTasks] = useState([]);
 

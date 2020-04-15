@@ -1,0 +1,27 @@
+.taskList {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 800px;
+  margin: 20px auto 0 auto;
+  background-color: #282c34;
+
+  &__taskInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #353b45;
+  }
+
+  &__taskInfoCounter {
+    margin: 0;
+
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+    &_completedTasks {
+      color: green;
+    }
+  }
+}
