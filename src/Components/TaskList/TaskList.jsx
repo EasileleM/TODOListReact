@@ -39,7 +39,8 @@ export function TaskList() {
                 return <Task
                     remove={() => removeTask(task)}
                     key={task.name}
-                    task={task}
+                    name={task.name}
+                    isCompleted={task.isCompleted}
                     toggleCompleteState={() => toggleCompleteTaskState(task)}
                 />;
             })}
