@@ -10,7 +10,7 @@ export function TaskList() {
 
     function removeTask(task) {
         const newTasks = tasks.slice();
-        newTasks.splice(tasks.findIndex((item) => item === task));
+        newTasks.splice(tasks.findIndex((item) => item === task), 1);
         setTasks(newTasks);
     }
 

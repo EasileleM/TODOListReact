@@ -6,8 +6,8 @@ export function Task({ task, remove }) {
         <p className="tasklist__taskDescription">{task.description}</p>
         <button
             className="tasklist__taskRemoveButton"
-            OnClick={() => remove(task)}>
-            &#10006
+            onClick={() => remove(task)}>
+            &#10006;
         </button>
     </div>
 }
